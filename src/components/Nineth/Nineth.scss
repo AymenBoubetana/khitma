@@ -1,0 +1,98 @@
+.Nineth{
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-image: url("../../../public/back5.png");
+  font-family: Reem Kufi Fun;
+  h3{
+    font-family: "Reem Kufi Fun", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 39px;
+    float: right;
+    margin-right: 20px;
+  }
+
+  img{
+    width:110px;
+    height:110px;
+    margin-top:32px;
+    margin-left:30px;
+  }
+    .buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .bt1,.active{
+      width:200px;
+      height:30px;
+      background-color:#ffdf8d ;
+      border: none;
+      font-size: 20px;
+      font-family: Reem Kufi Fun;
+      text-align: center;
+      font-weight: 400;
+      margin-left: 5px;
+      cursor: pointer;
+      margin-bottom: 10px;
+
+    }
+    .active::after{
+      content: '';
+      display: block; /* Make it a block-level element */
+      width: 60%; /* Occupy the full width of the parent element */
+      height: 2px; /* Set the height of the underline */
+      background-color: black; /* Set the color of the underline */
+      text-align: center;
+      margin-left: 32px;
+    }
+    .link{
+      text-decoration: none;
+      color: black;
+    }
+  
+  }
+
+  .elems{
+    display: flex;
+    justify-content: space-around;
+    .elem{
+      display:flex;
+      align-items: center;
+      justify-content: center;
+      img{
+        width:60px;
+        height: 60px;
+      }
+      h2{
+        font-size: 28px;
+        line-height: 20px;
+        margin-top: 50px;
+        color: #4B3FD2;
+
+      }
+    }
+  }
+  h1{
+    text-align: center;
+    padding-top: 30px;
+    color: #B58814;
+
+  }
+  .icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    .icon{
+      width:50px;
+      height: 50px;
+      margin-left:40px;
+      img{
+        width:100%;
+        height: 100%;
+      }
+    }
+  }
+}

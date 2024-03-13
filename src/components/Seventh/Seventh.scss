@@ -1,0 +1,106 @@
+.Seventh{
+  
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-image: url("../../../public/back3.png");
+  font-family: Reem Kufi Fun;
+  
+
+  h3{
+    font-family: "Reem Kufi Fun", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 39px;
+    float: right;
+    margin-right: 20px;
+  }
+  h2{
+    text-align: center;
+    font-size: 38px;
+  }
+  img{
+    width:110px;
+    height:110px;
+    margin-top:32px;
+    margin-left:30px;
+  }
+
+  .inputs{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    input{
+      width:300px;
+      margin-left: 20px;
+      background: #E7D4A3;
+      padding: 10px;
+      border-radius: 10px;
+      border: none;
+      outline: none;
+
+    }
+    input::placeholder{
+      color:white;
+      float: right;
+      font-size: 16px;
+      font-family: Reem Kufi Fun;
+    }
+  }
+  .inputsmiddle{
+    padding-top: 58px;
+    display: flex;
+    justify-content: center;
+    input{
+      width:200px;
+      margin-left: 20px;
+      
+      padding: 10px;
+      border: none;
+      outline: none;
+
+    }
+    input::placeholder{
+      color:white;
+      float: right;
+      font-size: 16px;
+      font-family: Reem Kufi Fun;
+    }
+    .inpu2::placeholder{
+      color:black;
+      font-family: Reem Kufi Fun;
+    }
+    .inpu1{
+      background: #3503038F;
+
+
+    }
+    .inpu2{
+      background: #FFFFFF;
+
+    }
+
+  }
+  .inputlast{
+    padding-top: 78px;
+    display: flex;
+    justify-content: center;
+    input{
+      width:200px;
+      margin-left: 20px;
+      background: #F6D683;
+
+      padding: 10px;
+      border: none;
+      outline: none;
+
+    }
+    input::placeholder{
+      color:black;
+      float: right;
+      font-size: 16px;
+      font-family: Reem Kufi Fun;
+    }
+  }
+}

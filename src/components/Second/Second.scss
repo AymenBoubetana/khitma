@@ -1,0 +1,164 @@
+.Second{
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-image: url("../../../public/back2.png");
+
+  h3{
+    font-family: "Reem Kufi Fun", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 39px;
+    float: right;
+    margin-right: 20px;
+  }
+  img{
+    width:110px;
+    height:110px;
+    margin-top:32px;
+    margin-left:30px;
+  }
+  .tasjil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h2{
+      font-family: "Reem Kufi Fun", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: bold;
+      font-style: normal;
+      font-size: 29px;
+      margin-top: -40px;
+    }
+  }
+  hr{
+    width:80%;
+    border: 1px solid #000;
+    margin-top: -10px;
+  }
+  .tasjil2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h4{
+      font-family: "Reem Kufi Fun", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: bold;
+      font-style: normal;
+      font-size: 19px;
+      margin-top: -10px;
+    }
+  }
+  .images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .img1{
+      margin-right: 200px;
+      width:50px;
+      height: 50px;
+
+    }
+    .img2{
+      margin-left:200px;
+      width:50px;
+      height: 50px;
+    }
+  }
+  .inputs{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    .inpu1{
+      width:40%;
+      display: flex;
+      flex-direction: column;
+
+
+    }
+    .inpu2{
+      width: 40%;
+      display: flex;
+      flex-direction: column;
+      label{
+        text-align: right;
+        font-family: "Reem Kufi Fun", sans-serif;
+      }
+    }
+    input{
+      padding:8px;
+      border:none;
+      border-radius: 10px;
+      outline: none;
+      background: #D9D9D978;
+
+    }
+    input::placeholder{
+      color:black;
+      float:right;
+      font-family: "Reem Kufi Fun";
+    }
+    label{
+      text-align: right;
+      font-family: "Reem Kufi Fun", sans-serif;
+      margin-bottom: 10px;
+
+    }
+
+  }
+  .hadra{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+   h4{
+    margin-left: 100px;
+    font-size: 20px;
+    color: #4B3FD2;
+    font-family: "Reem Kufi Fun", sans-serif;
+    a{
+      text-decoration: none;
+    }
+
+   }
+   .lol{
+    margin-left: -40px;
+    
+    
+   }
+   .lil{
+    margin-right: -50px;
+   }
+  }
+  .forget{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-right: 20px;
+    h4{
+      font-family: "Reem Kufi Fun", sans-serif;
+      margin-right: 20px;
+    }
+  }
+  .btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -30px;
+    button{
+      background: #4B3FD2;
+      color: #FFFFFF;
+      font-family: "Reem Kufi Fun", sans-serif;
+      border:none;
+      border-radius: 8px;
+      padding: 7px 15px;
+      margin-top: -30px;
+      font-size: 15px;
+      cursor: pointer;
+
+
+
+    }
+  }
+}

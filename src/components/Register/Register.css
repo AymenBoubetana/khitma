@@ -1,0 +1,112 @@
+.Third {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-image: url("../../../public/back4.png"); /* Chemin de l'image de fond */
+}
+
+.nav h3 {
+  font-family: "Reem Kufi Fun", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 39px;
+  float: right;
+  margin-right: 20px;
+}
+
+.Third img {
+  width: 110px;
+  height: 110px;
+  margin-top: 32px;
+  margin-left: 30px;
+}
+
+.titre1 {
+  text-align: center;
+  color: black;
+  font-family: "Reem Kufi Fun", sans-serif;
+}
+
+#hr1 {
+  height: 1px; /* Définition de la hauteur du hr */
+}
+
+.labelparent {
+  direction: rtl;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+  .form-row {
+      margin-right: 71px;
+      margin-left: 228px;
+      gap: 371px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin-bottom: 10px;
+      justify-content: center;
+      direction: rtl;
+      font-family: "Reem Kufi Fun", sans-serif;
+}
+.form-row3 {
+  margin-right: 30px;
+  margin-left: 155px;
+  gap: 392px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+  justify-content: center;
+  direction: rtl;
+  font-family: "Reem Kufi Fun", sans-serif;
+
+}
+.form-row3-2{
+  margin-right: 2px;
+  margin-left: 117px;
+  gap: 372px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+  justify-content: center;
+  direction: rtl;
+  font-family: "Reem Kufi Fun", sans-serif;
+
+}
+.form-row2,
+.form-row3-1,.form-row3-3 {
+  margin-right: 25px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+  gap: 254px;
+  justify-content: center;
+  direction: rtl;
+  margin-left: 64px 
+}
+.buttondiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button{
+  justify-content: center;
+  text-align: center;
+  color: white;
+  font-family: "Reem Kufi Fun", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 25px;
+  width: 299px;
+  height: 48px;
+  background-color: #4B3FD2;
+  border-radius: 20px;
+  margin-bottom: 58px;
+  align-items: center;
+margin-top: 68px;
+
+}
